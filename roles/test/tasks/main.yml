@@ -1,0 +1,15 @@
+- name: Normal name
+  debug: msg="Normal name"
+  changed_when: true
+
+- name: "Name with number vars {{number_var}}"
+  debug: msg="Name with number vars {{number_var}}"
+  changed_when: true
+
+- name: "Name with string vars {{string_var}}"
+  debug: msg="Name with string vars {{string_var}}"
+  changed_when: true
+
+- name: "Name with function vars {{number_float_var1}}"
+  debug: msg="Name with function vars {{number_float_var1}}"
+  changed_when: true

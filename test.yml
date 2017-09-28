@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+#  connection: local
+  vars:
+    number_var: 42
+    string_var: "100"
+    number_float_var: 2.1
+    string_float_var: "2.1"
+  roles:
+    - test

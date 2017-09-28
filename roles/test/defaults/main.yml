@@ -1,0 +1,1 @@
+number_float_var1: "{{number_float_var|int}}"
